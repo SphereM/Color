@@ -13,14 +13,19 @@ public class Color {
         this.g = g;
     }
 
-    public int randR() {
-        return rand.nextInt(255);
+    public int randRed() {
+        r = rand.nextInt(255);
+        return r;
     }
-    public int randB() {
-        return rand.nextInt(255);
+    public int randBlue() {
+        b = rand.nextInt(255);
+        return b;
     }
-    public int randG() {
-        return rand.nextInt(255);
+    public int randGreen() {
+        g = rand.nextInt(255);
+        return g;
     }
+
+    //public int 
     
 }
