@@ -12,7 +12,12 @@ public class colorTester {
         b = color.randBlue();
 
         System.out.println("["+r+", "+g+", "+b+"]");
-
+        
+        r = color.lighterDarkerRed(50);
+        g = color.lighterDarkerGreen(50);
+        b = color.lighterDarkerBlue(50);
+        
+        System.out.println("["+r+", "+g+", "+b+"]");
 
 
     }
