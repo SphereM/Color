@@ -19,6 +19,8 @@ public class colorTester {
         
         System.out.println("["+r+", "+g+", "+b+"]");
 
-
+        r = color.shadeChangeRed(-30);
+        g = color.shadeChangeRed(-30);
+        r = color.shadeChangeRed(-30);
     }
 }

@@ -44,5 +44,23 @@ public class Color {
         if (b <= 0) {b = 0;}
         return b;
     }
+    public int shadeChangeRed(int shade) {
+        r = r + shade;
+        if (r >= 255) {r = 255;}
+        if (r <= 0) {r = 0;}
+        return r;
+    }
+    public int shadeChangeGreen(int shade) {
+        g = g + shade;
+        if (g >= 255) {g = 255;}
+        if (g <= 0) {g = 0;}
+        return g;
+    }
+    public int shadeChangeBlue(int shade) {
+        b = b + shade;
+        if (b >= 255) {b = 255;}
+        if (b <= 0) {b = 0;}
+        return b;
+    }
     
 }
